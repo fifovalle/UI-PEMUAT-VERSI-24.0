@@ -1,3 +1,8 @@
+:root {
+    --tinggi: 4px;
+    --warna: #0071e2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +19,6 @@ body {
 
 .pemuat {
     display: block;
-    --tinggi: 4px;
-    --warna: #0071e2;
     width: 130px;
     height: var(--tinggi);
     border-radius: 30px;
